@@ -1,0 +1,9 @@
+#define WRITEBYTE(WORD,STARTBITPOS,BYTE) \
+        WORD=((WORD&~(255<<STARTBITPOS))| \
+			        (BYTE<<STARTBITPOS))
+#define READBIT(WORD,pinNo)\
+		((WORD>>pinNo)&1)
+
+#define WRITEBIT(WORD,STARTBITPOS,BIT)\
+		WORD=((WORD&~(255<<STARTBITPOS))| \
+			        (BIT<<STARTBITPOS))

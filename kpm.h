@@ -1,0 +1,11 @@
+#include <LPC21xx.h>
+#include "kpm_defines.h"
+#include "types.h"
+void Initkpm(void);
+u32 colScan(void);
+u32 rowCheck(void);
+u32 colCheck(void);
+u32 keyScan(void);
+u32 readnum(void);
+u32 mykeyRead(void);
+u32 Password_scan(void);

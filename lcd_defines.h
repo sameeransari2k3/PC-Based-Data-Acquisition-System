@@ -1,0 +1,15 @@
+#define CLEAR_LCD 0X01
+#define RET_CUR_HOME 0X02
+#define SHIFT_CUR_RIGHT 0X06
+#define DSP_OFF 0X08
+#define DSP_ON_CUR_OFF 0X0C
+#define DSP_ON_CUR_ON 0X0E
+#define DSP_ON_CUR_BLK 0X0F
+#define MODE_8BIT_2lINE 0X38
+#define GOTO_LINE2_POS0 0XC0
+#define GOTO_LINE1_POS0 0X80
+#define LCD_DATA 8
+#define LCD_RS 17
+#define LCD_RW 16
+#define LCD_EN 18 
+
